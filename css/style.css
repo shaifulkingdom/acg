@@ -1,0 +1,367 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+    padding: 0;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+a,
+a:hover,
+a:focus {
+    text-decoration: none;
+}
+
+@font-face {
+    font-family: allclassguide1;
+    src: url(../font/MonteCarlo-Regular.ttf);
+}
+
+@font-face {
+    font-family: allclassguide2;
+    src: url(../font/Philosopher-Regular.ttf);
+}
+
+@font-face {
+    font-family: allclassguide3;
+    src: url(../font/STIXTwoText-Regular.ttf);
+}
+
+@font-face {
+    font-family: allclassguide4;
+    src: url(../font/Lipishree\ Unicode.ttf);
+}
+
+@font-face {
+    font-family: allclassguide5;
+    src: url(../font/SolaimanLipi.ttf);
+}
+
+body {
+    background: url(../images/body-bg.png) #eae6d1;
+}
+
+#main .main {
+    margin: 10px 0 20px 0;
+    padding-bottom: 20px;
+    background: #eae6d1;
+    -webkit-box-shadow: 0px 0px 5px 2px rgba(63, 42, 23, 0.3);
+    -moz-box-shadow: 0px 0px 5px 2px rgba(63, 42, 23, 0.3);
+    box-shadow: 0px 0px 5px 2px rgba(63, 42, 23, 0.3);
+    border-radius: 3px;
+}
+
+hr {
+    margin-top: 10px;
+    margin-bottom: 0;
+    background: #002060;
+}
+
+
+
+/*=======================================================================================
+                                    banner-part start
+=========================================================================================*/
+
+#banner ul {
+    position: absolute;
+    bottom: 10px;
+    left: 40px;
+}
+
+#banner ul .slick-active button {
+    background: #502b18;
+}
+
+#banner ul li {
+    display: inline-block;
+    margin: 0 5px;
+}
+
+#banner ul li button {
+    font-size: 0;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    outline: none;
+    cursor: pointer;
+    background: transparent;
+    border: 1px solid #502b18;
+}
+
+#banner .slick-prev,
+#banner .slick-next {
+    display: none !important;
+}
+
+#banner .banner {
+    margin-top: 15px;
+}
+
+#banner .banner .left img,
+#banner .banner .left2 img {
+    width: 100%;
+    padding-left: 30px;
+}
+
+#banner .banner .left .text,
+#banner .banner .left2 .text {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    width: 100%;
+    padding-left: 30px;
+    color: #502b18;
+}
+
+#banner .banner .left .text h1 {
+    font-family: 'allclassguide1';
+    font-size: 50px;
+    padding-bottom: 20px;
+}
+
+#banner .banner .left2 .text h1 {
+    font-family: 'allclassguide4';
+    font-size: 50px;
+    padding-bottom: 20px;
+}
+
+#banner .banner .left .text h1:after,
+#banner .banner .left2 .text h1:after {
+    position: absolute;
+    content: '';
+    top: 57px;
+    left: 55%;
+    width: 90px;
+    height: 2px;
+    background: #502b18;
+    z-index: 9999;
+}
+
+#banner .banner .left .text .itemleft a,
+#banner .banner .left2 .text .itemleft a {
+    display: block;
+    color: #502b18;
+    font-size: 18px;
+    text-align: right;
+}
+
+#banner .banner .left .text .itemright a,
+#banner .banner .left2 .text .itemright a {
+    display: block;
+    color: #502b18;
+    font-size: 18px;
+    text-align: left;
+}
+
+#banner .banner .left .text .itemleft a,
+#banner .banner .left .text .itemright a {
+    font-family: 'allclassguide2';
+}
+
+#banner .banner .left2 .text .itemleft a,
+#banner .banner .left2 .text .itemright a {
+    font-family: 'allclassguide5';
+}
+
+#banner .banner .left .text .itemleft a:hover,
+#banner .banner .left .text .itemright a:hover,
+#banner .banner .left2 .text .itemleft a:hover,
+#banner .banner .left2 .text .itemright a:hover {
+    color: #502b18;
+    font-weight: bold;
+}
+
+#banner .banner .right img {
+    width: 100%;
+    padding-right: 30px;
+}
+
+#banner .banner .left::after,
+#banner .banner .left2::after {
+    position: absolute;
+    content: '';
+    top: 50%;
+    transform: translateY(-50%);
+    right: 10px;
+    width: 2px;
+    height: 50%;
+    background: #502b18;
+    z-index: 9999;
+}
+
+#banner .banner .right::before {
+    position: absolute;
+    content: '';
+    top: 50%;
+    transform: translateY(-50%);
+    left: 10px;
+    width: 2px;
+    height: 50%;
+    background: #502b18;
+    z-index: 9999;
+}
+
+#banner .banner .left .text::after,
+#banner .banner .left2 .text::after {
+    position: absolute;
+    content: '';
+    top: 50%;
+    transform: translateY(-50%);
+    right: 0;
+    width: 2px;
+    height: 120%;
+    background: #502b18;
+    z-index: 9999;
+}
+
+
+/*=======================================================================================
+                                    banner-part end
+=========================================================================================*/
+
+/*=======================================================================================
+                                    logo & search-part start
+=========================================================================================*/
+nav .navbar-brand {
+    width: 60px;
+}
+
+nav .navbar-brand img {
+    width: 100%;
+    margin-left: 15px;
+}
+
+nav .nav-item .nav-link {
+    color: #502b18 !important;
+    font-family: 'allclassguide3';
+    font-size: 16px;
+}
+
+.navbar-nav>.active>a {
+    color: #502b18;
+    font-weight: bold;
+}
+
+.nav-item>a:hover {
+    color: #502b18;
+    font-weight: bold;
+}
+
+nav .ui-widget input {
+    margin-right: 15px;
+    border: 1px solid #502b18;
+}
+
+nav .ui-widget input:focus-visible {
+    outline: 0;
+}
+
+.ui-menu {
+    font-family: 'allclassguide3';
+    font-size: 16px;
+    color: #502b18;
+    width: 100px;
+    background: #ffffff;
+    padding: 0 5px;
+    border: 1px solid #502b18;
+    border-top: none;
+    height: 200px;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+
+.ui-menu .ui-menu-item:hover {
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/*=======================================================================================
+                                    logo & search-part end
+=========================================================================================*/
+
+/*=======================================================================================
+                                    paragraph-part start
+=========================================================================================*/
+#para .para,
+#formal .formal {
+    margin: 15px 15px 0 15px;
+}
+
+#para .para .row,
+#formal .formal .row {
+    margin: 0;
+}
+
+#para .para .row {
+    background: #dddddd;
+    padding: 15px 0;
+}
+
+#para .para .left .title,
+#formal .formal .left .title {
+    display: flex;
+    justify-content: space-between;
+}
+
+#para .para .left .title img,
+#formal .formal .left .title img {
+    width: 50%;
+}
+
+#para .para .left h1,
+#formal .formal .left h1 {
+    font-family: 'allclassguide1';
+    font-size: 45px;
+    font-weight: bold;
+}
+
+#para .para .left .text a,
+#formal .formal .left .text a {
+    font-family: 'allclassguide2';
+    font-size: 17px;
+    color: #002060;
+    padding-top: 3px;
+    display: block;
+}
+
+#para .para .left .text .seemore,
+#formal .formal .left .text .seemore {
+    color: #502b18;
+    font-size: 18px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+#para .para .left .text .seemore:hover,
+#para .para .left .text a:hover,
+#formal .formal .left .text .seemore:hover,
+#formal .formal .left .text a:hover {
+    font-weight: bold;
+}
+
+#para .para .right img,
+#formal .formal .right img {
+    width: 100%;
+    border: 1px solid#502b18;
+}
+
+
+/*=======================================================================================
+                                    paragraph-part end
+=========================================================================================*/
