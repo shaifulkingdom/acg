@@ -1,3 +1,8 @@
+#para .para .left h1,
+#formal .formal .left h1 {
+    color: #502b18;
+}
+
 #para .para .left .title img {
     width: 40%;
 }
@@ -10,7 +15,7 @@
 
 #para .para p {
     font-family: 'allclassguide3';
-    font-size: 18px;
+    font-size: 20px;
     color: darkblue;
     text-align: justify;
 }
@@ -18,4 +23,18 @@
 #para .para p span {
     font-family: 'allclassguide5';
     color: blue;
+    font-size: 21px;
+}
+
+#para .para h2 {
+    font-family: 'allclassguide5';
+    font-size: 30px;
+    color: #cd2731;
+}
+
+#para .para .bangla {
+    font-family: 'allclassguide5';
+    font-size: 21px;
+    text-align: justify;
+    color: darkblue;
 }
