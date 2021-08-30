@@ -1,3 +1,7 @@
+/*=======================================================================================
+                                    paragraph-part start
+=========================================================================================*/
+
 #para .para .left h1,
 #formal .formal .left h1 {
     color: #502b18;
@@ -38,3 +42,63 @@
     text-align: justify;
     color: darkblue;
 }
+
+/*=======================================================================================
+                                    paragraph-part end
+=========================================================================================*/
+
+/*=======================================================================================
+                                    seemore-part start
+=========================================================================================*/
+#smpart .smpart {
+    margin: 15px 15px 0 15px;
+}
+
+#smpart .smpart .row {
+    margin: 0;
+}
+
+#smpart .smpart .left .title {
+    display: flex;
+    justify-content: space-between;
+}
+
+#smpart .smpart .left .title img {
+    width: 50%;
+}
+
+#smpart .smpart .left h1 {
+    font-family: 'allclassguide1';
+    font-size: 40px;
+    font-weight: bold;
+}
+
+#smpart .smpart .left .text a {
+    font-family: 'allclassguide2';
+    font-size: 17px;
+    color: #002060;
+    padding-top: 3px;
+    display: block;
+}
+
+#smpart .smpart .left .text .seemore {
+    color: #502b18;
+    font-size: 18px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+#smpart .smpart .left .text .seemore:hover,
+#smpart .smpart .left .text a:hover {
+    font-weight: bold;
+}
+
+#smpart .smpart .right img {
+    width: 100%;
+    border: 1px solid#502b18;
+}
+
+/*=======================================================================================
+                                    seemore-part end
+=========================================================================================*/

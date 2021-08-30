@@ -265,6 +265,7 @@ nav .nav-item .nav-link {
 nav .ui-widget input {
     margin-right: 15px;
     border: 1px solid #502b18;
+    background: url(../images/body-bg.png) #eae6d1;
 }
 
 nav .ui-widget input:focus-visible {
@@ -276,11 +277,11 @@ nav .ui-widget input:focus-visible {
     font-size: 16px;
     color: #502b18;
     width: 100px;
-    background: #ffffff;
+    background: url(../images/body-bg.png) #eae6d1;
     padding: 0 5px;
     border: 1px solid #502b18;
     border-top: none;
-    height: 200px;
+    height: 150px;
     overflow: hidden;
     overflow-y: scroll;
 }
