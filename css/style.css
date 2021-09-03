@@ -26,27 +26,27 @@ a:focus {
 }
 
 @font-face {
-    font-family: allclassguide1;
+    font-family: acg1;
     src: url(../font/MonteCarlo-Regular.ttf);
 }
 
 @font-face {
-    font-family: allclassguide2;
+    font-family: acg2;
     src: url(../font/Philosopher-Regular.ttf);
 }
 
 @font-face {
-    font-family: allclassguide3;
+    font-family: acg3;
     src: url(../font/STIXTwoText-Regular.ttf);
 }
 
 @font-face {
-    font-family: allclassguide4;
+    font-family: acg4;
     src: url(../font/Lipishree\ Unicode.ttf);
 }
 
 @font-face {
-    font-family: allclassguide5;
+    font-family: acg5;
     src: url(../font/SolaimanLipi.ttf);
 }
 
@@ -55,8 +55,8 @@ body {
 }
 
 #main .main {
-    margin: 10px 0 20px 0;
-    padding-bottom: 20px;
+    margin: 15px 0 20px 0;
+    padding: 15px 0;
     background: #eae6d1;
     -webkit-box-shadow: 0px 0px 5px 2px rgba(63, 42, 23, 0.3);
     -moz-box-shadow: 0px 0px 5px 2px rgba(63, 42, 23, 0.3);
@@ -67,19 +67,17 @@ body {
 hr {
     margin-top: 10px;
     margin-bottom: 0;
-    background: #002060;
+    background: #502b18;
 }
-
-
 
 /*=======================================================================================
                                     banner-part start
 =========================================================================================*/
-
 #banner ul {
     position: absolute;
-    bottom: 10px;
-    left: 40px;
+    right: 30px;
+    top: 50%;
+    transform: translateY(-50%);
 }
 
 #banner ul .slick-active button {
@@ -87,7 +85,6 @@ hr {
 }
 
 #banner ul li {
-    display: inline-block;
     margin: 0 5px;
 }
 
@@ -108,135 +105,109 @@ hr {
 }
 
 #banner .banner {
-    margin-top: 15px;
+    background: #dedede;
+    padding: 70px 0;
 }
 
-#banner .banner .left img,
-#banner .banner .left2 img {
-    width: 100%;
-    padding-left: 30px;
-}
-
-#banner .banner .left .text,
-#banner .banner .left2 .text {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
+#banner .banner .text h1 {
+    font-family: 'acg1';
+    font-size: 55px;
     text-align: center;
-    width: 100%;
-    padding-left: 30px;
+    color: #502b18;
+    padding-bottom: 20px;
+}
+
+#banner .banner .text .b1 {
+    font-family: 'acg4';
+    font-size: 45px;
+}
+
+#banner .banner .text .item .left {
+    text-align: right;
+}
+
+#banner .banner .text .item .right {
+    text-align: left;
+}
+
+#banner .banner .text .item .bl a,
+#banner .banner .text .item .br a {
+    font-family: 'acg5';
+    font-size: 20px;
+}
+
+#banner .banner .text .item a {
+    display: block;
+    font-family: 'acg2';
+    font-size: 18px;
     color: #502b18;
 }
 
-#banner .banner .left .text h1 {
-    font-family: 'allclassguide1';
-    font-size: 50px;
-    padding-bottom: 20px;
+#banner .banner .text .item a:hover {
+    font-weight: bold;
 }
 
-#banner .banner .left2 .text h1 {
-    font-family: 'allclassguide4';
-    font-size: 50px;
-    padding-bottom: 20px;
+#banner .banner .image {
+    position: relative;
+    width: 525px;
 }
 
-#banner .banner .left .text h1:after,
-#banner .banner .left2 .text h1:after {
+#banner .banner .image img {
+    position: absolute;
+    top: -50px;
+    width: 100%;
+}
+
+#banner .banner .text h1:after {
     position: absolute;
     content: '';
-    top: 57px;
-    left: 55%;
-    width: 90px;
+    top: 60px;
+    left: 53%;
+    width: 100px;
     height: 2px;
     background: #502b18;
     z-index: 9999;
 }
 
-#banner .banner .left .text .itemleft a,
-#banner .banner .left2 .text .itemleft a {
-    display: block;
-    color: #502b18;
-    font-size: 18px;
-    text-align: right;
-}
-
-#banner .banner .left .text .itemright a,
-#banner .banner .left2 .text .itemright a {
-    display: block;
-    color: #502b18;
-    font-size: 18px;
-    text-align: left;
-}
-
-#banner .banner .left .text .itemleft a,
-#banner .banner .left .text .itemright a {
-    font-family: 'allclassguide2';
-}
-
-#banner .banner .left2 .text .itemleft a,
-#banner .banner .left2 .text .itemright a {
-    font-family: 'allclassguide5';
-}
-
-#banner .banner .left .text .itemleft a:hover,
-#banner .banner .left .text .itemright a:hover,
-#banner .banner .left2 .text .itemleft a:hover,
-#banner .banner .left2 .text .itemright a:hover {
-    color: #502b18;
-    font-weight: bold;
-}
-
-#banner .banner .right img {
-    width: 100%;
-    padding-right: 30px;
-}
-
-#banner .banner .left::after,
-#banner .banner .left2::after {
+#banner .banner .text h1:before,
+#banner .banner .text:after,
+#banner .banner .text:before {
     position: absolute;
     content: '';
     top: 50%;
+    width: 2px;
     transform: translateY(-50%);
+    background: #502b18;
+    z-index: 9999;
+}
+
+#banner .banner .text h1:before {
     right: 10px;
-    width: 2px;
-    height: 50%;
-    background: #502b18;
-    z-index: 9999;
+    height: 90%;
 }
 
-#banner .banner .right::before {
-    position: absolute;
-    content: '';
-    top: 50%;
-    transform: translateY(-50%);
-    left: 10px;
-    width: 2px;
-    height: 50%;
-    background: #502b18;
-    z-index: 9999;
-}
-
-#banner .banner .left .text::after,
-#banner .banner .left2 .text::after {
-    position: absolute;
-    content: '';
-    top: 50%;
-    transform: translateY(-50%);
+#banner .banner .text:after {
     right: 0;
-    width: 2px;
-    height: 120%;
-    background: #502b18;
-    z-index: 9999;
+    height: 130%;
 }
 
+#banner .banner .text:before {
+    right: -10px;
+    height: 90%;
+
+}
 
 /*=======================================================================================
                                     banner-part end
 =========================================================================================*/
 
 /*=======================================================================================
-                                    logo & search-part start
+                                    menu-part start
 =========================================================================================*/
+nav {
+    padding-bottom: 0 !important;
+}
+
 nav .navbar-brand {
     width: 60px;
 }
@@ -248,8 +219,8 @@ nav .navbar-brand img {
 
 nav .nav-item .nav-link {
     color: #502b18 !important;
-    font-family: 'allclassguide3';
-    font-size: 16px;
+    font-family: 'acg2';
+    font-size: 18px;
 }
 
 .navbar-nav>.active>a {
@@ -262,10 +233,37 @@ nav .nav-item .nav-link {
     font-weight: bold;
 }
 
+.navbar-expand-lg .navbar-nav .dropdown-menu {
+    background: #eae6d1;
+    border: 1px solid #502b18;
+}
+
+.navbar-expand-lg .navbar-nav .dropdown-item {
+    font-family: 'acg2';
+    font-size: 18px;
+}
+
+.navbar-expand-lg .navbar-nav .dropdown-item:hover {
+    background: #eae6d1;
+    font-weight: bold;
+}
+
+.navbar-light .navbar-toggler {
+    border-color: #502b18;
+}
+
+.navbar-light .navbar-toggler:focus {
+    outline: 0;
+}
+
+.navbar-light .navbar-toggler i {
+    color: #502b18;
+}
+
 nav .ui-widget input {
     margin-right: 15px;
     border: 1px solid #502b18;
-    background: url(../images/body-bg.png) #eae6d1;
+    background: #eae6d1;
 }
 
 nav .ui-widget input:focus-visible {
@@ -273,11 +271,11 @@ nav .ui-widget input:focus-visible {
 }
 
 .ui-menu {
-    font-family: 'allclassguide3';
+    font-family: 'acg3';
     font-size: 16px;
     color: #502b18;
     width: 100px;
-    background: url(../images/body-bg.png) #eae6d1;
+    background: #eae6d1;
     padding: 0 5px;
     border: 1px solid #502b18;
     border-top: none;
@@ -292,77 +290,77 @@ nav .ui-widget input:focus-visible {
 }
 
 /*=======================================================================================
-                                    logo & search-part end
+                                    menu-part end
 =========================================================================================*/
 
 /*=======================================================================================
-                                    paragraph-part start
+                                    book-part start
 =========================================================================================*/
-#para .para,
-#formal .formal {
-    margin: 15px 15px 0 15px;
+#book {
+    margin-top: 10px;
 }
 
-#para .para .row,
-#formal .formal .row {
-    margin: 0;
+#book .book {
+    background: #dedede;
+    padding: 15px;
 }
 
-#para .para .row {
-    background: #dddddd;
-    padding: 15px 0;
+#book .book.even {
+    background: #eae6d1;
+    padding: 15px;
 }
 
-#para .para .left .title,
-#formal .formal .left .title {
+#book .book .title {
     display: flex;
     justify-content: space-between;
 }
 
-#para .para .left .title img,
-#formal .formal .left .title img {
-    width: 50%;
-}
-
-#para .para .left h1,
-#formal .formal .left h1 {
-    font-family: 'allclassguide1';
+#book .book .title h1 {
+    font-family: 'acg1';
     font-size: 40px;
+    color: #502b18;
     font-weight: bold;
 }
 
-#para .para .left .text a,
-#formal .formal .left .text a {
-    font-family: 'allclassguide2';
-    font-size: 17px;
-    color: #002060;
-    padding-top: 3px;
-    display: block;
+#book .book .bangla h1 {
+	font-family: 'acg4';
+	font-size: 40px;
+	color: #502b18;
+	font-weight: bold;
 }
 
-#para .para .left .text .seemore,
-#formal .formal .left .text .seemore {
+#book .book .title img {
+    width: 40%;
+}
+
+#book .book .item img {
+    margin: 20px 0;
+    padding: 0 10px;
+    width: 100%;
+}
+
+#book .book .item .prev {
     color: #502b18;
-    font-size: 18px;
+    font-size: 40px;
     position: absolute;
     top: 50%;
+    left: -10px;
     transform: translateY(-50%);
+    cursor: pointer;
+    z-index: 9999;
 }
 
-#para .para .left .text .seemore:hover,
-#para .para .left .text a:hover,
-#formal .formal .left .text .seemore:hover,
-#formal .formal .left .text a:hover {
-    font-weight: bold;
+#book .book .item .next {
+    color: #502b18;
+    font-size: 40px;
+    position: absolute;
+    top: 50%;
+    right: -10px;
+    transform: translateY(-50%);
+    cursor: pointer;
+    z-index: 9999;
 }
-
-#para .para .right img,
-#formal .formal .right img {
-    width: 100%;
-    border: 1px solid#502b18;
-}
-
 
 /*=======================================================================================
-                                    paragraph-part end
+                                    book-part end
 =========================================================================================*/
