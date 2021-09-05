@@ -55,6 +55,15 @@
     #book .book .title img {
         width: 50%;
     }
+
+    /* ======================== para-part ======================== */
+    #para .para .title h1 {
+        font-size: 20px;
+    }
+
+    #para .para .title img {
+        width: 50%;
+    }
 }
 
 
@@ -107,6 +116,15 @@
     #book .book .title img {
         width: 55%;
     }
+
+    /* ======================== para-part ======================== */
+    #para .para .title h1 {
+        font-size: 25px;
+    }
+
+    #para .para .title img {
+        width: 55%;
+    }
 }
 
 
@@ -139,6 +157,15 @@
     }
 
     #book .book .title img {
+        width: 45%;
+    }
+
+    /* ======================== para-part ======================== */
+    #para .para .title h1 {
+        font-size: 30px;
+    }
+
+    #para .para .title img {
         width: 45%;
     }
 }
