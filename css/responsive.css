@@ -58,11 +58,33 @@
 
     /* ======================== para-part ======================== */
     #para .para .title h1 {
-        font-size: 20px;
+        font-size: 25px;
     }
 
     #para .para .title img {
-        width: 50%;
+        width: 55%;
+    }
+
+    #para .para .item a {
+        font-size: 16px;
+    }
+
+    /* ======================== paragraph-part ======================== */
+    #paragraph .paragraph .title {
+        display: block;
+        text-align: center;
+    }
+
+    #paragraph .paragraph .title h1 {
+        font-size: 33px;
+    }
+
+    #paragraph .paragraph .title h1 span {
+        font-size: 26px;
+    }
+
+    #paragraph .paragraph .title img {
+        width: 60%;
     }
 }
 
@@ -119,11 +141,33 @@
 
     /* ======================== para-part ======================== */
     #para .para .title h1 {
-        font-size: 25px;
+        font-size: 30px;
     }
 
     #para .para .title img {
-        width: 55%;
+        width: 60%;
+    }
+
+    #para .para .item a {
+        font-size: 17px;
+    }
+
+    /* ======================== paragraph-part ======================== */
+    #paragraph .paragraph .title {
+        display: block;
+        text-align: center;
+    }
+
+    #paragraph .paragraph .title h1 {
+        font-size: 38px;
+    }
+
+    #paragraph .paragraph .title h1 span {
+        font-size: 30px;
+    }
+
+    #paragraph .paragraph .title img {
+        width: 65%;
     }
 }
 
@@ -162,11 +206,29 @@
 
     /* ======================== para-part ======================== */
     #para .para .title h1 {
-        font-size: 30px;
+        font-size: 35px;
     }
 
     #para .para .title img {
-        width: 45%;
+        width: 50%;
+    }
+
+    /* ======================== paragraph-part ======================== */
+    #paragraph .paragraph .title {
+        display: block;
+        text-align: center;
+    }
+
+    #paragraph .paragraph .title h1 {
+        font-size: 40px;
+    }
+
+    #paragraph .paragraph .title h1 span {
+        font-size: 30px;
+    }
+
+    #paragraph .paragraph .title img {
+        width: 65%;
     }
 }
 

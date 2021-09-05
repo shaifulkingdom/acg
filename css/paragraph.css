@@ -26,6 +26,83 @@
     width: 40%;
 }
 
+#para .para .item a {
+    display: block;
+    font-family: 'acg2';
+    font-size: 18px;
+    color: #502b18;
+    text-align: center;
+}
+
+#para .para .item a:hover {
+    color: darkblue;
+    font-weight: bold;
+}
+
 /*=======================================================================================
                                     para-part end
+=========================================================================================*/
+
+/*=======================================================================================
+                                    book-part start
+=========================================================================================*/
+#paragraph {
+    margin-top: 10px;
+}
+
+#paragraph .paragraph {
+    background: #dedede;
+    padding: 15px;
+}
+
+#paragraph .paragraph .title {
+    display: flex;
+    justify-content: space-between;
+}
+
+#paragraph .paragraph .title h1 {
+    font-family: 'acg1';
+    font-size: 45px;
+    color: #502b18;
+    font-weight: bold;
+}
+
+#paragraph .paragraph .title h1 span {
+    font-family: 'acg4';
+    font-style: italic;
+    font-size: 35px;
+}
+
+#paragraph .paragraph .title img {
+    width: 40%;
+}
+
+#paragraph .paragraph .item p {
+    font-family: 'acg3';
+    font-size: 18px;
+    color: #502b18;
+    text-align: justify;
+}
+
+#paragraph .paragraph .item p span {
+    font-family: 'acg5';
+    font-size: 20px;
+    color: darkblue;
+}
+
+#paragraph .paragraph .bangla h1 {
+    font-family: 'acg4';
+    font-size: 30px;
+    color: #502b18;
+}
+
+#paragraph .paragraph .bangla p {
+    font-family: 'acg5';
+    font-size: 20px;
+    color: darkblue;
+    text-align: justify;
+}
+
+/*=======================================================================================
+                                    book-part end
 =========================================================================================*/

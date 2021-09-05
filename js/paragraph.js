@@ -6,7 +6,7 @@ var $ = jQuery;
 $(function () {
     var availableTags = [{
             value: "Tree Plantation",
-            link: 'https://shaifulkingdom.github.io/acg/pages/paragraph/tree-plantation.html'
+            link: 'https://shaifulkingdom.github.io/acg/paragraph/tree-plantation.html'
         },
 
     ];
